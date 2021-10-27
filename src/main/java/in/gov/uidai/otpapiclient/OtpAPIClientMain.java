@@ -12,7 +12,6 @@ public class OtpAPIClientMain {
         otpAPIService.readProperties();
         String txnId = UUID.randomUUID().toString();
         System.out.println("Printing txnId: " + txnId);
-        Scanner scanner = new Scanner(System.in);
         String uid = args[0];
         OtpRes otpRes = otpAPIService.getOtpRes(uid, txnId);
         System.out.println("Result : " + otpRes.getRet().value() + ", err: " + otpRes.getErr());
