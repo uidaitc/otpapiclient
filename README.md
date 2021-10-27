@@ -4,7 +4,7 @@
 This is a Spring boot application which can be used to generate OTP on the registered mobile number corresponding to the Staging UID.
 
 #### Minimum Requirements
-- Java 8
+- Java 8 (Required)
 - Maven 3.6.1
 
 ### Steps to run
